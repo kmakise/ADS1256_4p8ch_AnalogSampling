@@ -1,0 +1,1697 @@
+Dependencies for Project 'ADS1256', Target 'ADS1256': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (startup_stm32h750xx.s)(0x61B4C189)(--cpu Cortex-M7.fp.dp -g --apcs=interwork -I ..\Core\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include--pd "__UVISION_VERSION SETA 533" --pd "_RTE_ SETA 1" --pd "STM32H750xx SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32h750xx.lst --xref -o ads1256\startup_stm32h750xx.o --depend ads1256\startup_stm32h750xx.d)
+F (../Core/Src/main.c)(0x61B4C187)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\main.o --omf_browse ads1256\main.crf --depend ads1256\main.d)
+I (../Core/Inc/main.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61B4670F)
+I (../Core/Inc/FreeRTOSConfig.h)(0x61B4C186)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x61B4670F)
+I (../Core/Inc/spi.h)(0x61B4C186)
+I (../Core/Inc/usart.h)(0x61B4C187)
+I (../Core/Inc/gpio.h)(0x61B4C185)
+F (../Core/Src/gpio.c)(0x61B4C185)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\gpio.o --omf_browse ads1256\gpio.crf --depend ads1256\gpio.d)
+I (../Core/Inc/gpio.h)(0x61B4C185)
+I (../Core/Inc/main.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (../Core/Src/freertos.c)(0x61B4C186)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\freertos.o --omf_browse ads1256\freertos.crf --depend ads1256\freertos.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61B4670F)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x61B4C186)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61B4670F)
+I (../Core/Inc/main.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x61B4670F)
+I (..\Task\Inc\Task01.h)(0x61B47390)
+I (..\Task\Inc\Task02.h)(0x61B47409)
+I (..\Task\Inc\Task03.h)(0x61B47409)
+F (../Core/Src/spi.c)(0x61B4C645)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\spi.o --omf_browse ads1256\spi.crf --depend ads1256\spi.d)
+I (../Core/Inc/spi.h)(0x61B4C186)
+I (../Core/Inc/main.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (../Core/Src/usart.c)(0x61B4C186)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\usart.o --omf_browse ads1256\usart.crf --depend ads1256\usart.d)
+I (../Core/Inc/usart.h)(0x61B4C187)
+I (../Core/Inc/main.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (../Core/Src/stm32h7xx_it.c)(0x61B4C1B1)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\stm32h7xx_it.o --omf_browse ads1256\stm32h7xx_it.crf --depend ads1256\stm32h7xx_it.d)
+I (../Core/Inc/main.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_it.h)(0x61B4C187)
+I (..\Drivers\Hardware\Inc\ADS1256.h)(0x61B6F86D)
+I (..\Middlewares\AppLib\Inc\kmGlobal.h)(0x61B6F49B)
+I (..\Drivers\Hardware\Inc\MAX308.h)(0x61B6F866)
+I (..\Middlewares\AppLib\Inc\kmFilter.h)(0x61B5AB8E)
+F (../Core/Src/stm32h7xx_hal_msp.c)(0x61B4C187)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\stm32h7xx_hal_msp.o --omf_browse ads1256\stm32h7xx_hal_msp.crf --depend ads1256\stm32h7xx_hal_msp.d)
+I (../Core/Inc/main.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (../Core/Src/stm32h7xx_hal_timebase_tim.c)(0x61B4C187)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\stm32h7xx_hal_timebase_tim.o --omf_browse ads1256\stm32h7xx_hal_timebase_tim.crf --depend ads1256\stm32h7xx_hal_timebase_tim.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (..\Task\Src\Task01.c)(0x61B57963)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\task01.o --omf_browse ads1256\task01.crf --depend ads1256\task01.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61B4670F)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x61B4C186)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x61B4670F)
+I (..\Task\Inc\Task01.h)(0x61B47390)
+I (../Core/Inc/main.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+I (..\Drivers\Hardware\Inc\ADS1256.h)(0x61B6F86D)
+I (..\Middlewares\AppLib\Inc\kmGlobal.h)(0x61B6F49B)
+I (..\Drivers\Hardware\Inc\MAX308.h)(0x61B6F866)
+I (..\Middlewares\AppLib\Inc\kmFilter.h)(0x61B5AB8E)
+I (../Core/Inc/spi.h)(0x61B4C186)
+F (..\Task\Src\Task02.c)(0x61B6F0DD)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\task02.o --omf_browse ads1256\task02.crf --depend ads1256\task02.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61B4670F)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x61B4C186)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x61B4670F)
+I (..\Task\Inc\Task02.h)(0x61B47409)
+I (../Core/Inc/main.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+I (..\Drivers\Hardware\Inc\ADS1256.h)(0x61B6F86D)
+I (..\Middlewares\AppLib\Inc\kmGlobal.h)(0x61B6F49B)
+I (..\Drivers\Hardware\Inc\MAX308.h)(0x61B6F866)
+I (..\Middlewares\AppLib\Inc\kmFilter.h)(0x61B5AB8E)
+F (..\Task\Src\Task03.c)(0x61B6F84E)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\task03.o --omf_browse ads1256\task03.crf --depend ads1256\task03.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61B4670F)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x61B4C186)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x61B4670F)
+I (..\Task\Inc\Task03.h)(0x61B47409)
+I (../Core/Inc/main.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (../Core/Inc/usart.h)(0x61B4C187)
+F (..\Drivers\Hardware\Src\ADS1256.c)(0x61B6F8EB)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\ads1256.o --omf_browse ads1256\ads1256.crf --depend ads1256\ads1256.d)
+I (../Core/Inc/main.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (..\Drivers\Hardware\Inc\ADS1256.h)(0x61B6F86D)
+I (..\Middlewares\AppLib\Inc\kmGlobal.h)(0x61B6F49B)
+I (..\Drivers\Hardware\Inc\MAX308.h)(0x61B6F866)
+I (..\Middlewares\AppLib\Inc\kmFilter.h)(0x61B5AB8E)
+I (../Core/Inc/spi.h)(0x61B4C186)
+F (..\Drivers\Hardware\Src\MAX308.c)(0x61B6EDA8)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\max308.o --omf_browse ads1256\max308.crf --depend ads1256\max308.d)
+I (..\Drivers\Hardware\Inc\MAX308.h)(0x61B6F866)
+I (../Core/Inc/main.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+I (..\Middlewares\AppLib\Inc\kmGlobal.h)(0x61B6F49B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c)(0x61B4670B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\stm32h7xx_hal_cortex.o --omf_browse ads1256\stm32h7xx_hal_cortex.crf --depend ads1256\stm32h7xx_hal_cortex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c)(0x61B4670B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\stm32h7xx_hal_rcc.o --omf_browse ads1256\stm32h7xx_hal_rcc.crf --depend ads1256\stm32h7xx_hal_rcc.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c)(0x61B4670B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\stm32h7xx_hal_rcc_ex.o --omf_browse ads1256\stm32h7xx_hal_rcc_ex.crf --depend ads1256\stm32h7xx_hal_rcc_ex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c)(0x61B4670B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\stm32h7xx_hal_flash.o --omf_browse ads1256\stm32h7xx_hal_flash.crf --depend ads1256\stm32h7xx_hal_flash.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c)(0x61B4670B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\stm32h7xx_hal_flash_ex.o --omf_browse ads1256\stm32h7xx_hal_flash_ex.crf --depend ads1256\stm32h7xx_hal_flash_ex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c)(0x61B4670B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\stm32h7xx_hal_gpio.o --omf_browse ads1256\stm32h7xx_hal_gpio.crf --depend ads1256\stm32h7xx_hal_gpio.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c)(0x61B4670B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\stm32h7xx_hal_hsem.o --omf_browse ads1256\stm32h7xx_hal_hsem.crf --depend ads1256\stm32h7xx_hal_hsem.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c)(0x61B4670B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\stm32h7xx_hal_dma.o --omf_browse ads1256\stm32h7xx_hal_dma.crf --depend ads1256\stm32h7xx_hal_dma.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c)(0x61B4670B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\stm32h7xx_hal_dma_ex.o --omf_browse ads1256\stm32h7xx_hal_dma_ex.crf --depend ads1256\stm32h7xx_hal_dma_ex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c)(0x61B4670B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\stm32h7xx_hal_mdma.o --omf_browse ads1256\stm32h7xx_hal_mdma.crf --depend ads1256\stm32h7xx_hal_mdma.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c)(0x61B4670B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\stm32h7xx_hal_pwr.o --omf_browse ads1256\stm32h7xx_hal_pwr.crf --depend ads1256\stm32h7xx_hal_pwr.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c)(0x61B4670B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\stm32h7xx_hal_pwr_ex.o --omf_browse ads1256\stm32h7xx_hal_pwr_ex.crf --depend ads1256\stm32h7xx_hal_pwr_ex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c)(0x61B4670B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\stm32h7xx_hal.o --omf_browse ads1256\stm32h7xx_hal.crf --depend ads1256\stm32h7xx_hal.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c)(0x61B4670B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\stm32h7xx_hal_i2c.o --omf_browse ads1256\stm32h7xx_hal_i2c.crf --depend ads1256\stm32h7xx_hal_i2c.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c)(0x61B4670B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\stm32h7xx_hal_i2c_ex.o --omf_browse ads1256\stm32h7xx_hal_i2c_ex.crf --depend ads1256\stm32h7xx_hal_i2c_ex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c)(0x61B4670B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\stm32h7xx_hal_exti.o --omf_browse ads1256\stm32h7xx_hal_exti.crf --depend ads1256\stm32h7xx_hal_exti.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c)(0x61B4670B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\stm32h7xx_hal_spi.o --omf_browse ads1256\stm32h7xx_hal_spi.crf --depend ads1256\stm32h7xx_hal_spi.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c)(0x61B4670B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\stm32h7xx_hal_spi_ex.o --omf_browse ads1256\stm32h7xx_hal_spi_ex.crf --depend ads1256\stm32h7xx_hal_spi_ex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c)(0x61B4670B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\stm32h7xx_hal_tim.o --omf_browse ads1256\stm32h7xx_hal_tim.crf --depend ads1256\stm32h7xx_hal_tim.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c)(0x61B4670B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\stm32h7xx_hal_tim_ex.o --omf_browse ads1256\stm32h7xx_hal_tim_ex.crf --depend ads1256\stm32h7xx_hal_tim_ex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c)(0x61B4670B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\stm32h7xx_hal_uart.o --omf_browse ads1256\stm32h7xx_hal_uart.crf --depend ads1256\stm32h7xx_hal_uart.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c)(0x61B4670B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\stm32h7xx_hal_uart_ex.o --omf_browse ads1256\stm32h7xx_hal_uart_ex.crf --depend ads1256\stm32h7xx_hal_uart_ex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (../Core/Src/system_stm32h7xx.c)(0x61B46701)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\system_stm32h7xx.o --omf_browse ads1256\system_stm32h7xx.crf --depend ads1256\system_stm32h7xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (..\Middlewares\AppLib\Inc\kmGlobal.h)(0x61B6F49B)()
+F (..\Middlewares\AppLib\Src\kmFilter.c)(0x61B6F91C)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\kmfilter.o --omf_browse ads1256\kmfilter.crf --depend ads1256\kmfilter.d)
+I (..\Middlewares\AppLib\Inc\kmFilter.h)(0x61B5AB8E)
+I (../Core/Inc/main.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (..\Middlewares\AppLib\Src\kmQueue.c)(0x61B6F937)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\kmqueue.o --omf_browse ads1256\kmqueue.crf --depend ads1256\kmqueue.d)
+I (..\Middlewares\AppLib\Inc\kmQueue.h)(0x61B6F5C1)
+F (../Middlewares/Third_Party/FreeRTOS/Source/croutine.c)(0x61B4670F)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\croutine.o --omf_browse ads1256\croutine.crf --depend ads1256\croutine.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61B4670F)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x61B4C186)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h)(0x61B4670F)
+F (../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c)(0x61B4670F)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\event_groups.o --omf_browse ads1256\event_groups.crf --depend ads1256\event_groups.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61B4670F)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x61B4C186)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x61B4670F)
+F (../Middlewares/Third_Party/FreeRTOS/Source/list.c)(0x61B4670F)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\list.o --omf_browse ads1256\list.crf --depend ads1256\list.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61B4670F)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x61B4C186)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61B4670F)
+F (../Middlewares/Third_Party/FreeRTOS/Source/queue.c)(0x61B4670F)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\queue_1.o --omf_browse ads1256\queue_1.crf --depend ads1256\queue_1.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61B4670F)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x61B4C186)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x61B4670F)
+F (../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c)(0x61B4670F)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\stream_buffer.o --omf_browse ads1256\stream_buffer.crf --depend ads1256\stream_buffer.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61B4670F)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x61B4C186)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h)(0x61B4670F)
+F (../Middlewares/Third_Party/FreeRTOS/Source/tasks.c)(0x61B4670F)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\tasks.o --omf_browse ads1256\tasks.crf --depend ads1256\tasks.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61B4670F)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x61B4C186)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h)(0x61B4670F)
+F (../Middlewares/Third_Party/FreeRTOS/Source/timers.c)(0x61B4670F)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\timers.o --omf_browse ads1256\timers.crf --depend ads1256\timers.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61B4670F)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x61B4C186)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x61B4670F)
+F (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c)(0x61B4670F)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\cmsis_os2.o --omf_browse ads1256\cmsis_os2.crf --depend ads1256\cmsis_os2.d)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x61B4670F)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61B4670A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61B4670F)
+I (../Core/Inc/FreeRTOSConfig.h)(0x61B4C186)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_mpool.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_os2.h)(0x61B4670F)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x61B46701)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61B4670A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x61B4670A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x61B46701)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x61B4670B)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x61B4C187)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61B4670B)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x61B4670B)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x61B4670B)
+F (../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c)(0x61B4670F)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\heap_4.o --omf_browse ads1256\heap_4.crf --depend ads1256\heap_4.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61B4670F)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x61B4C186)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61B4670F)
+F (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c)(0x61B4670F)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\Hardware\Inc -I ..\Task\Inc -I ..\Middlewares\AppLib\Inc-I.\RTE\_ADS1256-ID:\Users\17122\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Users\17122\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx-o ads1256\port.o --omf_browse ads1256\port.crf --depend ads1256\port.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61B4670F)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x61B4C186)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61B4670F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61B4670F)
