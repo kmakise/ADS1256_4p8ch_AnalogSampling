@@ -23,6 +23,7 @@
 /* Private includes ----------------------------------------------------------*/
 #include "stdio.h"
 #include "usart.h"
+#include "comProtocol.h"
 /* Private define ------------------------------------------------------------*/
 
 /* Private variables ---------------------------------------------------------*/
@@ -35,9 +36,12 @@
 
 void Task03Main(void)
 {
+	
+	__HAL_UART_ENABLE_IT(&huart1,UART_IT_RXNE);
 	for(;;)
 	{
-		osDelay(10);
+		comLoopRec();
+		//osDelay(5);
 	}
 }
 

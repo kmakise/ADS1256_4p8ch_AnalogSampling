@@ -21,7 +21,6 @@
 #include "ADS1256.h"
 #include "spi.h"
 /* Private variables ---------------------------------------------------------*/
-ADC_ConfigTypedef pCfgADCParam;
 ADC_DataTypedef pADCHandle[ADS1256_PORT_NUM] = {
 	
 	[0].id 												= 0,
@@ -89,24 +88,6 @@ int32_t ADS1256ReadData(ADC_HWInterface * hi,uint8_t channel)
 	sum |= (sum & 0x800000) ? 0xFF000000 : 0;
   return sum;
 }
-//参数配置
-void ADCHandleCfgInit(ADC_DataTypedef * adc)
-{
-	for(int i = 0;i < 8;i++)
-	{
-		adc->filter[i].meanNum  = pCfgADCParam.mean[adc->id][i];
-		adc->atgain[i].cfg_mode = pCfgADCParam.mode[adc->id][i];
-		adc->atgain[i].cfg_gain = pCfgADCParam.gain[adc->id][i];
-		adc->atgain[i].ngain		= 1;
-		adc->atgain[i].en = 0;
-	}
-	adc->atgain[0].en = 1;
-	adc->atgain[2].en = 1;
-	adc->atgain[4].en = 1;
-	adc->atgain[6].en = 1;
-	
-	adc->state = ADS1256_INIT_OK;
-}
 
 //初始化ADS1256
 void ADS1256_Init(ADC_DataTypedef * adc)
@@ -115,7 +96,7 @@ void ADS1256_Init(ADC_DataTypedef * adc)
 	ADS1256WREG(&(adc->hwinfc),ADS1256_ADCON,ADS1256_GAIN_1 );// 放大倍数1
 	ADS1256WREG(&(adc->hwinfc),ADS1256_DRATE,ADS1256_DRATE_30000SPS);
 	ADS1256WREG(&(adc->hwinfc),ADS1256_MUX, ADS1256_MUXP_AIN0 | ADS1256_MUXN_AINCOM);// 初始化端口A0为‘+’，AINCOM位‘-’
-	ADCHandleCfgInit(adc);
+	adc->state = ADS1256_INIT_OK;
 }
 /* Private application code --------------------------------------------------*/
 

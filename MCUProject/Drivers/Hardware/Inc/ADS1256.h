@@ -106,6 +106,8 @@
 #define ADS1256_PORT_NUM 				4
 #define ADS1256_ADC_UV					0.596046518808
 
+
+
 /* Exported types ------------------------------------------------------------*/
 //硬件接口
 typedef struct
@@ -115,16 +117,6 @@ typedef struct
 	GPIO_OptTypedef		 	drdy;					//ADC转换完成
 	
 }ADC_HWInterface;
-
-//配置参数
-typedef struct
-{
-	uint8_t 		gain[ADS1256_PORT_NUM][ADS1256_CH_NUM];	//放大倍率  0:自动 1:1V/V 2:10V/V 3:100V/V
-	uint8_t 		mean[ADS1256_PORT_NUM][ADS1256_CH_NUM]; //平均次数	XX 0-255
-	uint8_t 		mode[ADS1256_PORT_NUM][ADS1256_CH_NUM]; //采样方式	0 RMS 1 LOG
-	uint8_t     update;																	//更新标志  0x00:等待 0xAA:完成
-	
-}ADC_ConfigTypedef;
 
 //ADC句柄
 typedef struct
@@ -144,12 +136,10 @@ typedef struct
 /* Exported constants --------------------------------------------------------*/
 
 /* Exported variables --------------------------------------------------------*/
-extern ADC_ConfigTypedef pCfgADCParam;
 extern ADC_DataTypedef pADCHandle[ADS1256_PORT_NUM];
 
 /* Exported functions prototypes ---------------------------------------------*/
 void ADS1256_Init(ADC_DataTypedef * adc);
-void ADCHandleCfgInit(ADC_DataTypedef * adc);
 void EXIT_ADC_DRDY_A(void);
 
 /* Private defines -----------------------------------------------------------*/

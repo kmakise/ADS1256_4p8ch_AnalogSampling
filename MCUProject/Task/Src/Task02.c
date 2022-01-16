@@ -21,41 +21,24 @@
 #include "Task02.h"
 
 /* Private includes ----------------------------------------------------------*/
-#include "ADS1256.h"
-
-
-
-//ADC配置参数初始化
-void pCfgADCParamInit(void)
-{
-	//port
-	for(int i = 0;i < 4;i++)
-	{
-		//ch
-		for(int j = 0;j < 8;j++)
-		{
-			pCfgADCParam.gain[i][j] = 0;//自动
-			pCfgADCParam.mean[i][j] = 8;//8次
-			pCfgADCParam.mode[i][j] = 0;//RMS
-		}
-	}
-	pCfgADCParam.update = ADS1256_INIT_OK;
-}	
-
-
+#include "ADS1256_cfg.h"
 /* Private variables ---------------------------------------------------------*/
 
 /* Private function prototypes -----------------------------------------------*/
+
+
+/* Private application code --------------------------------------------------*/
 
 void Task02Main(void)
 {
 	pCfgADCParamInit();
 	for(;;)
 	{
+		pCfgADCParamUpdate(&pCfgADCParam);
 		osDelay(10);
 	}
 }
-/* Private application code --------------------------------------------------*/
+
 
 /************************ (C) COPYRIGHT kmakise ****************END OF FILE****/
 

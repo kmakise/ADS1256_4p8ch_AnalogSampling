@@ -22,9 +22,6 @@ extern "C" {
 
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "kmFilter.h"
-#include "kmQueue.h"
-#include "comProtocol.h"
 /* Exported defines ----------------------------------------------------------*/
 #define USART_BUFFER_LEN_MAX 64
 

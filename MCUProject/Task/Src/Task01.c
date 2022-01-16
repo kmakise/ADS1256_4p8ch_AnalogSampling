@@ -19,10 +19,10 @@
 #include "FreeRTOS.h"
 #include "cmsis_os.h"
 #include "Task01.h"
-
+#include "spi.h"
 /* Private includes ----------------------------------------------------------*/
 #include "ADS1256.h"
-#include "spi.h"
+#include "ADS1256_cfg.h"
 /* Private typedef -----------------------------------------------------------*/
 
 /* Private define ------------------------------------------------------------*/
@@ -35,7 +35,10 @@
 /* Private function prototypes -----------------------------------------------*/
 void Task01Main(void)
 {
-	while(pCfgADCParam.update != ADS1256_INIT_OK);
+	HAL_NVIC_SetPriority(USART1_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(USART1_IRQn);
+	
+	waitCfgReading();
 	ADS1256_Init(&pADCHandle[0]);
 	
 	for(;;)

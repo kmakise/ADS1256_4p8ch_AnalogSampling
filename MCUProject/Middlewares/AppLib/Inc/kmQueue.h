@@ -19,25 +19,30 @@
 #include "main.h"
 
 /* Exported define -----------------------------------------------------------*/
-#define RQ_MAXSIZE  		64
-#define RQ_DATATYPE 		uint8_t
+#define RQ_QUEUE_MAXSIZE  		64
+#define RQ_DATA_MAXSIZE  			32
+#define RQ_DATATYPE 					uint8_t
 
 /* Exported types ------------------------------------------------------------*/
 
 typedef struct
 {
-	volatile RQ_DATATYPE 				data[RQ_MAXSIZE];
-	volatile uint32_t 					pw;
-	volatile uint32_t						pr;
-	volatile uint32_t 					errornum;
+	volatile RQ_DATATYPE 		buffer[RQ_QUEUE_MAXSIZE];		//队列缓冲区
+	volatile RQ_DATATYPE 		data[RQ_DATA_MAXSIZE];			//提取数据
+	volatile uint32_t				pd;													//提取数据下标
+	volatile uint32_t 			pw;													//队列缓冲区写入点
+	volatile uint32_t				pr;													//队列缓冲区读取点
+	volatile uint32_t 			errornum;										//丢失数
 }RingQueueTypedef;
 
 
 
 /* Exported functions prototypes ---------------------------------------------*/
-uint8_t enRingQueue(RingQueueTypedef * rq,RQ_DATATYPE data);
-uint8_t deRingQueue(RingQueueTypedef * rq,RQ_DATATYPE  * data);
-
+uint32_t enRingQueueSingle(RingQueueTypedef * rq,RQ_DATATYPE data);
+uint32_t enRingQueuePlural(RingQueueTypedef * rq,RQ_DATATYPE * pData,uint32_t size);
+uint32_t deRingQueueSingleOut(RingQueueTypedef * rq,RQ_DATATYPE * pData);
+uint32_t deRingQueueSingle(RingQueueTypedef * rq);
+uint32_t deRingQueuePlural(RingQueueTypedef * rq);
 
 
 #endif /* __KMQUEUE_H */
